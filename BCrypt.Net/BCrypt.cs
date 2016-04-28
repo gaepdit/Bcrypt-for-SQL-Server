@@ -15,10 +15,12 @@
 // OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
+using System.Security;
 using System.Security.Cryptography;
 using System.Text;
+
+[assembly: AllowPartiallyTrustedCallers]
 
 // namespace: BCrypt.Net
 namespace BCrypt.Net
