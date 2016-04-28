@@ -95,21 +95,21 @@ namespace BCrypt.Net.Test
             Trace.WriteLine("");
         }
 
-        [TestMethod]
-        public void TestGenerateSaltWithMaxWorkFactor()
-        {
-            Trace.Write("BCrypt.GenerateSalt(31):");
-            for (int j = 0; j < _TestVectors.Length / 3; j++)
-            {
-                string plain = _TestVectors[j, 0];
-                string salt = BCrypt.GenerateSalt(31);
-                string hashed1 = BCrypt.HashPassword(plain, salt);
-                string hashed2 = BCrypt.HashPassword(plain, hashed1);
-                Assert.AreEqual(hashed1, hashed2);
-                Trace.Write(".");
-            }
-            Trace.WriteLine("");
-        }
+        //[TestMethod]
+        //public void TestGenerateSaltWithMaxWorkFactor()
+        //{
+        //    Trace.Write("BCrypt.GenerateSalt(31):");
+        //    for (int j = 0; j < _TestVectors.Length / 3; j++)
+        //    {
+        //        string plain = _TestVectors[j, 0];
+        //        string salt = BCrypt.GenerateSalt(31);
+        //        string hashed1 = BCrypt.HashPassword(plain, salt);
+        //        string hashed2 = BCrypt.HashPassword(plain, hashed1);
+        //        Assert.AreEqual(hashed1, hashed2);
+        //        Trace.Write(".");
+        //    }
+        //    Trace.WriteLine("");
+        //}
 
         /**
          * Test method for 'BCrypt.GenerateSalt()'
