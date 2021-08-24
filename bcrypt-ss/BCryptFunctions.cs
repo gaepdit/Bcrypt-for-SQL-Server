@@ -1,7 +1,4 @@
 ﻿using Microsoft.SqlServer.Server;
-using System.Security;
-
-[assembly: AllowPartiallyTrustedCallers]
 
 public class BCryptFunctions
 {
