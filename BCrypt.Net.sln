@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bcrypt-ss", "bcrypt-ss\bcrypt-ss.csproj", "{304AA310-5AF3-47E3-87DD-A4E34DB6C871}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BcryptSS", "BcryptSS\BcryptSS.csproj", "{304AA310-5AF3-47E3-87DD-A4E34DB6C871}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bcrypt-ss.Tests", "bcrypt-ss.Tests\bcrypt-ss.Tests.csproj", "{EF334962-C76C-4728-B826-571873320E9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BcryptSS.Tests", "BcryptSS.Tests\BcryptSS.Tests.csproj", "{EF334962-C76C-4728-B826-571873320E9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
