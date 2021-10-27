@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCryptSS", "BCryptSS\BCrypt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCryptSS.Tests", "BCryptSS.Tests\BCryptSS.Tests.csproj", "{EF334962-C76C-4728-B826-571873320E9F}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BCrypt.Database", "BCrypt.Database\BCrypt.Database.sqlproj", "{784CC0AF-5258-43BD-85FB-51863830B310}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{EF334962-C76C-4728-B826-571873320E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF334962-C76C-4728-B826-571873320E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF334962-C76C-4728-B826-571873320E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784CC0AF-5258-43BD-85FB-51863830B310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784CC0AF-5258-43BD-85FB-51863830B310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784CC0AF-5258-43BD-85FB-51863830B310}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{784CC0AF-5258-43BD-85FB-51863830B310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784CC0AF-5258-43BD-85FB-51863830B310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784CC0AF-5258-43BD-85FB-51863830B310}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

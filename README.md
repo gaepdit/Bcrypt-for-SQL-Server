@@ -1,5 +1,17 @@
-# README #
+# BCrypt for SQL Server
 
-A .Net port of jBCrypt implemented in C#. Project originally downloaded from [BCrypt.Net project on CodePlex](https://bcrypt.codeplex.com/) (Last updated Nov 21, 2013).
+This project creates two SQL Server functions that are wrappers around the [BCrypt.Net](https://github.com/BcryptNet/bcrypt.net) functions used to hash and verify passwords.
 
-Created this fork in order to add some changes needed to get BCrypt running on SQL Server.
+* `bcrypt.CheckPassword` calls `BCrypt.Net.BCrypt.Verify`
+* `bcrypt.HashPassword` calls `BCrypt.Net.BCrypt.HashPassword` 
+
+## Usage examples
+
+```sql
+declare
+    @password varchar(57) = 'abc',
+    @hash varchar(max)= '$2a$10$qvcDFHfBnxfX1.1KMIcX4O1UC9yLTkFzq/pQNPT24pm8VudXTnDC2';
+
+select bcrypt.HashPassword(@password);
+select bcrypt.CheckPassword(@password, @hash);
+```
