@@ -1,11 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Tests
+namespace BCryptSS.Tests
 {
-    [TestClass()]
+    [TestClass]
     public class BCryptFunctionsUnitTests
     {
-        [TestMethod()]
+        [TestMethod]
         public void HashPasswordTest()
         {
             string h = BCryptFunctions.HashPassword("pass");
@@ -20,7 +20,7 @@ namespace Tests
             Assert.IsFalse(BCryptFunctions.CheckPassword("abc", h));
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void CheckPasswordTest()
         {
             Assert.IsTrue(BCryptFunctions.CheckPassword("pass", "$2a$10$5V88J4tFtfeouzkjwRiFL.kx.eerDR2T.78pt1dQ7WtBncNnUn5Tm"));

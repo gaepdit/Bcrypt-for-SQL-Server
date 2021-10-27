@@ -55,9 +55,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BcryptSS\BcryptSS.csproj">
+    <ProjectReference Include="..\BCryptSS\BCryptSS.csproj">
       <Project>{304AA310-5AF3-47E3-87DD-A4E34DB6C871}</Project>
-      <Name>BcryptSS</Name>
+      <Name>BCryptSS</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
